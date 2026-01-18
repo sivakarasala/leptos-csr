@@ -10,6 +10,10 @@ log = { workspace = true }
 console_error_panic_hook = { workspace = true }
 gloo-timers = { workspace = true, features = ["futures"] }
 web-sys = { workspace = true }
+tw_merge = {workspace = true, features = ["variant"] }
+icons = {workspace = true, features = ["leptos"]}
+leptos_ui = {workspace = true }
+leptos_router ={ workspace = true }
 
 [dev-dependencies]
 wasm-bindgen = { workspace = true }

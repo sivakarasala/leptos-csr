@@ -48,3 +48,17 @@ Terminal2:
 npm i
 npm run watch:css
 ```
+
+### UI CLI - LEPTOS UI
+
+```
+cargo install ui-cli
+ui init
+
+copy tailwind.css to input.css
+delete tailwind.css
+
+ui add component-name
+
+cargo add leptos_router
+```

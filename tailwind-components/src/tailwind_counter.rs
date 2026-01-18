@@ -1,5 +1,8 @@
 use leptos::prelude::*;
 
+use crate::components::ui::button::Button;
+use crate::components::demos::demo_card::DemoCard;
+
 #[component]
 pub fn TailwindCounter() -> impl IntoView {
     let value = RwSignal::new(0);
@@ -16,6 +19,11 @@ pub fn TailwindCounter() -> impl IntoView {
             <button class=CLASS_BUTTON on:click=decrement>-1</button>
             <span class="text-2xl font-bold">Value: {value} !</span>
             <button class=CLASS_BUTTON on:click=increment>+1</button>
+
+            <br/>
+            <br/>
+            <Button>LeptosUIButton</Button>
+            <DemoCard/>
         </div>
     }
 }
