@@ -6,7 +6,7 @@ edition = "2024"
 [workspace]
 members = [
     "simple-challenges"
-]
+, "tailwind-components"]
 
 [workspace.dependencies]
 leptos = { version = "0.8", features = ["csr"] }
